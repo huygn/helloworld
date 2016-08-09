@@ -6,7 +6,20 @@ A gRPC helloworld service.
 go get ./...
 ```
 
-## Rebuilding the generated code
+## Try it
+- Run the server
+
+```console
+go run server/main.go &
+```
+
+- Run the client
+
+```console
+go run client/main.go
+```
+
+### Optional - Rebuilding the generated code
 ```console
 make protoc
 ```
