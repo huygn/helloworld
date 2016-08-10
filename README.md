@@ -20,7 +20,7 @@ go run client/main.go
 ```
 
 ### Optional - Rebuilding the generated code
-This requires [docker](https://www.docker.com/) installed.
+This requires [docker](https://www.docker.com/) pre-installed.
 ```console
 make protoc
 ```
