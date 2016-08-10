@@ -1,5 +1,5 @@
 # helloworld
-A gRPC helloworld service.
+gRPC helloworld service.
 
 ## Install
 ```console
@@ -20,6 +20,7 @@ go run client/main.go
 ```
 
 ### Optional - Rebuilding the generated code
+This requires [docker](https://www.docker.com/) installed.
 ```console
 make protoc
 ```
